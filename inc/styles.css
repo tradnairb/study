@@ -1,0 +1,28 @@
+html {
+  background-color: #ccc;
+  font-family: sans-serif;
+}
+
+#main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 10px;
+  color: #444;
+}
+
+.card {
+  border: 1px solid #666;
+  background-color: #eee;
+  padding: 0 0 0 20px;
+  min-height: 120px;
+  cursor: pointer;
+}
+
+.card h1 {
+  font-size: 30px;
+}
+
+.id {
+  display: none;
+}
